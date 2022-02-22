@@ -11,7 +11,7 @@ export default function LoginPage() {
     return (
         <div>
             <h1>LoginPage</h1>
-            <button onClick={()=>login(userCredentials,location.state?.from)}>Iniciar sesion</button>
+            <button onClick={()=>login(userCredentials,location.state?.from)}>Login</button>
         </div>
     )
 }
