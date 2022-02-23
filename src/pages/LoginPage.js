@@ -10,7 +10,7 @@ export default function LoginPage() {
 
     return (
         <div>
-            <h1>LoginPage</h1>
+            <h1>Login-Page</h1>
             <button onClick={()=>login(userCredentials,location.state?.from)}>Login</button>
         </div>
     )
