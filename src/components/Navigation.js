@@ -23,7 +23,7 @@ export default function Navigation() {
                     </NavDropdown>
                 </Nav>
                 <Nav>
-                    <Nav.Link as={NavLink} to={routes.login}>Login</Nav.Link>
+                    <Nav.Link as={NavLink} to={routes.login}>Iniciar sesion</Nav.Link>
                     <Nav.Link as={NavLink} to={routes.register}>Register</Nav.Link>
                     <Nav.Link as={NavLink} to={routes.account}>Account</Nav.Link>
                     <Nav.Link to={routes.logout} onClick={logout}>Logout</Nav.Link>
